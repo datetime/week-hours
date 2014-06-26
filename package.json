@@ -1,6 +1,6 @@
 {
   "name": "week-hours",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get the number of hours in a week.",
   "main": "index.js",
   "scripts": {
