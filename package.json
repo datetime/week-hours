@@ -1,13 +1,19 @@
 {
   "name": "week-hours",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Get the number of hours in a week.",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec"
   },
   "repository": "tunnckoCore/week-hours",
-  "keywords": [],
+  "keywords": [
+    "week",
+    "hours",
+    "date",
+    "number",
+    "count"
+  ],
   "dependencies": {},
   "devDependencies": {
     "mocha": "*"

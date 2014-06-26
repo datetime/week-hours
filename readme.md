@@ -32,7 +32,7 @@ weekHours()
 Copyright (c) 2014 [Charlike Mike Reagent][author-website], [contributors](https://github.com/tunnckoCore/week-hours/graphs/contributors).  
 Released under the [`MIT`][license-url] license.
 
-[npmjs-url]: https://npm.im/week-hours
+[npmjs-url]: http://npm.im/week-hours
 [npmjs-img]: http://img.shields.io/npm/v/week-hours.svg
 [npmjs-install]: https://nodei.co/npm/week-hours.png?mini=true
 
