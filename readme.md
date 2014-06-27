@@ -20,6 +20,14 @@ weekHours()
 ```
 
 
+## Tests
+> As usual `npm test` **or** if you have [mocha][mocha-url] globally `mocha`
+
+```
+$ npm test
+```
+
+
 ## Authors & Contributors [![author tips][author-gittip-img]][author-gittip]
 **Charlike Mike Reagent**
 + [gittip/tunnckoCore][author-gittip]
@@ -31,6 +39,9 @@ weekHours()
 ## License [![MIT license][license-img]][license-url]
 Copyright (c) 2014 [Charlike Mike Reagent][author-website], [contributors](https://github.com/tunnckoCore/week-hours/graphs/contributors).  
 Released under the [`MIT`][license-url] license.
+
+
+[mocha-url]: https://github.com/visionmedia/mocha
 
 [npmjs-url]: http://npm.im/week-hours
 [npmjs-img]: http://img.shields.io/npm/v/week-hours.svg
