@@ -7,8 +7,6 @@
 
 'use strict';
 
-var daySeconds = require('day-seconds');
-
 /**
  * Get the number of hours in a week.
  *
