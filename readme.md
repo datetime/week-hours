@@ -1,65 +1,69 @@
-# week-hours [![NPM version][npmjs-img]][npmjs-url] [![Build Status][travis-img]][travis-url] [![Dependency Status][depstat-img]][depstat-url]
+## [![npm][npmjs-img]][npmjs-url] [![mit license][license-img]][license-url] [![build status][travis-img]][travis-url] [![coverage status][coveralls-img]][coveralls-url] [![deps status][daviddm-img]][daviddm-url]
 
 > Get the number of hours in a week.
 
-
-## Install [![Nodei.co stats][npmjs-install]][npmjs-url] 
-
-> Install with [npm](https://npmjs.org)
-
+## Install
 ```bash
-$ npm install week-hours
+npm install week-hours
+npm test
 ```
 
-# Usage
+
+## API
+> For more use-cases see the [tests](./test.js)
+
+### [weekHours](./index.js#L28)
+> Get the number of hours in a week.
+
+- `return` **{Number}**
+
+**Example:**
+
 ```js
 var weekHours = require('week-hours');
 
-weekHours()
+weekHours();
 //=> 168
 ```
 
 
-## Tests
-> As usual `npm test` **or** if you have [mocha][mocha-url] globally `mocha`
-
-```
-$ npm test
-```
-
-
-## Authors & Contributors [![author tips][author-gittip-img]][author-gittip]
+## Author
 **Charlike Mike Reagent**
-+ [gittip/tunnckoCore][author-gittip]
-+ [github/tunnckoCore][author-github]
++ [gratipay/tunnckoCore][author-gratipay]
 + [twitter/tunnckoCore][author-twitter]
++ [github/tunnckoCore][author-github]
 + [npmjs/tunnckoCore][author-npmjs]
++ [more ...][contrib-more]
 
 
 ## License [![MIT license][license-img]][license-url]
-Copyright (c) 2014 [Charlike Mike Reagent][author-website], [contributors](https://github.com/tunnckoCore/week-hours/graphs/contributors).  
+Copyright (c) 2014-2015 [Charlike Mike Reagent][contrib-more], [contributors][contrib-graf].  
 Released under the [`MIT`][license-url] license.
 
 
-[mocha-url]: https://github.com/visionmedia/mocha
-
 [npmjs-url]: http://npm.im/week-hours
-[npmjs-img]: http://img.shields.io/npm/v/week-hours.svg
-[npmjs-install]: https://nodei.co/npm/week-hours.png?mini=true
+[npmjs-img]: https://img.shields.io/npm/v/week-hours.svg?style=flat&label=week-hours
 
-[license-url]: https://github.com/tunnckoCore/week-hours/blob/master/license.md
-[license-img]: http://img.shields.io/badge/license-MIT-blue.svg
+[coveralls-url]: https://coveralls.io/r/datetime/week-hours?branch=master
+[coveralls-img]: https://img.shields.io/coveralls/datetime/week-hours.svg?style=flat
 
-[travis-url]: https://travis-ci.org/tunnckoCore/week-hours
-[travis-img]: https://travis-ci.org/tunnckoCore/week-hours.png?branch=master
+[license-url]: https://github.com/datetime/week-hours/blob/master/license.md
+[license-img]: https://img.shields.io/badge/license-MIT-blue.svg?style=flat
 
-[depstat-url]: https://david-dm.org/tunnckoCore/week-hours
-[depstat-img]: https://david-dm.org/tunnckoCore/week-hours.png
+[travis-url]: https://travis-ci.org/datetime/week-hours
+[travis-img]: https://img.shields.io/travis/datetime/week-hours.svg?style=flat
 
-[author-gittip-img]: http://img.shields.io/gittip/tunnckoCore.svg
-[author-gittip]: https://www.gittip.com/tunnckoCore
-[author-github]: https://github.com/tunnckoCore
+[daviddm-url]: https://david-dm.org/datetime/week-hours
+[daviddm-img]: https://img.shields.io/david/datetime/week-hours.svg?style=flat
+
+[author-gratipay]: https://gratipay.com/tunnckoCore
 [author-twitter]: https://twitter.com/tunnckoCore
-
-[author-website]: http://www.whistle-bg.tk
+[author-github]: https://github.com/tunnckoCore
 [author-npmjs]: https://npmjs.org/~tunnckocore
+
+[contrib-more]: http://j.mp/1stW47C
+[contrib-graf]: https://github.com/datetime/week-hours/graphs/contributors
+
+***
+
+_Powered and automated by [kdf](https://github.com/tunnckoCore), January 26, 2015_
